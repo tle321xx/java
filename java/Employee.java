@@ -3,6 +3,18 @@ class Employee {
     private String id;
     private Double salary;
 
+    public Employee(){
+        System.out.println("Initializing a Default Constructor");
+    }
+
+    // constructor
+    public Employee(String name, Double salary){
+        System.out.println("Initializing a Constructor");
+        this.name=name;
+        this.salary=salary;
+        displayEmployee();
+    }
+
     // Setter Methods
 
     // ถ้าอยากจะกำหนดอะไรก็แล้วแต่ใน attribute ที่เป็น private จะต้องเรียกผ่าน method
