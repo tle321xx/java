@@ -1,9 +1,19 @@
 public class Main {
     public static void main(String[] args) {
 
-        Programmer p1 = new Programmer("Title Programmer", 30400.00);
-        Accounting a1 = new Accounting("Title Account", 10500.00);
+        Accounting p1 = new Accounting();
 
-        // p1.displayEmployee();
+
+        Accounting p2 = new Accounting();
+        p2.bonus();
+
+        Programmer p3 = new Programmer();
+        p3.skill("JAVA", "Angular");
+
+
+        Programmer p4 = new Programmer();
+        p4.skill("JAVA", "Angular", "HTML", "CSS");
+        p4.bonus();
+
     }
 }

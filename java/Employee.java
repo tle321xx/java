@@ -1,10 +1,11 @@
-class Employee {
+abstract class Employee {
     private String name;
     private String id;
     private Double salary;
 
     public Employee(){
         System.out.println("Initializing a Default Constructor");
+        System.out.println("I'm employee");
     }
 
     // constructor
@@ -49,5 +50,7 @@ class Employee {
     public Double getSalary() {
         return this.salary;
     }
+
+    public abstract void bonus();
 
 }
