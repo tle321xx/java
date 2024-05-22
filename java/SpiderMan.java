@@ -1,0 +1,16 @@
+public class SpiderMan extends SuperHero implements SpecialSkill {
+
+    // สืบทอด abstract
+    public void setSkill(String skill){
+        System.out.println("basic skill= "+skill);
+    }
+
+    // สืบทอดจาก interface
+    public void setWealty(String value){
+        System.out.println("How Wealty= "+value);
+    };
+    public void setMoving(String movement){
+        System.out.println("How many speed= "+movement);
+    };
+    
+}

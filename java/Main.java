@@ -1,19 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-
-        Accounting p1 = new Accounting();
-
-
-        Accounting p2 = new Accounting();
-        p2.bonus();
-
-        Programmer p3 = new Programmer();
-        p3.skill("JAVA", "Angular");
-
-
-        Programmer p4 = new Programmer();
-        p4.skill("JAVA", "Angular", "HTML", "CSS");
-        p4.bonus();
-
+        Ironman hero1 = new Ironman();
+        hero1.setName("Iron mannnn");
+        hero1.setAge("40");
+        hero1.setSkill("flying");
+        hero1.setWealty("VERY RICH");
+        hero1.setMoving("100 mph");
+        hero1.displayHero();
     }
 }
